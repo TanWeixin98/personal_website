@@ -1,4 +1,17 @@
+#contact_icon_list{
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+	overflow: hidden;
+}
+
+#contact_icon_list li{
+	float:left;
+}
 .contact_icon{
 	color: #000000;
 	font-size: 20px;
+	padding: 10px;
 }
+
+
