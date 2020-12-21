@@ -1,21 +1,30 @@
 <!DOCTYPE html>
+
 <head>
 	<!--Bootstrap-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<!--font awsome(icon)-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+		integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<!--Index CSS-->
 	<link href="css/index.css" rel="stylesheet">
 	<!--JS-->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
 </head>
 
 <body>
 	<!--Nav bar-->
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-			<span class="navbar-text"> Weixin Tan </span>
+		<span class="navbar-text"> Weixin Tan </span>
 		<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_menu">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -31,42 +40,166 @@
 			</ul>
 		</div>
 	</nav>
-	<!--Home(cover content)-->
+
 	<div>
-		<div id="cover-text">
-			<h1>Hello, I'm Weixin</h1>
-			<h4>Welcome to my site</h4>
-			<!--contact objects-->
-			<div>
-				<ul id="contact_icon_list">
-					<li><a href=""><i class="far fa-envelope contact_icon"></i></a></li>
-					<li><a href=""><i class="fab fa-linkedin contact_icon"></i></a></li>
-					<li><a href=""><i class="fab fa-github-square contact_icon"></i></a></li>
-					<li><a href=""><i class="far fa-file-pdf contact_icon"></i></a></li>
-				</ul>
-			</div>
-			<!--
-			<div>
-				<ul>
-					<li><i></i></li>
-				<ul>
-			</div>
-			-->
+
+	</div>
+
+	<!--Home(cover content)-->
+	<div id="cover-text">
+		<h1>Hello, World!</h1>
+		<h4>I'm Weixin</h4>
+		<img id="profile-img" class="img-fluid rounded-circle col-sm-4" src="resources/profile.jpg">
+		<div>
+			<ul id="description_word_list">
+				<li>Engineer</li>
+				<li>Explorer</li>
+				<li>Hacker</li>
+				<li>Foodie</li>
+			</ul>
 		</div>
 	</div>
 	<!--About-->
-	<div id="about">
+	<div id="about" class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-4">About Me</h1>
+			<p class="lead">
+				I grow up in New York, Queens. Started programming when I was a sophmore in high school and I majored
+				Computer Science and Applied Mathematics in college. Currently, learning digital arts and guitar.
+			</p>
+		</div>
+	</div>
+
+
+
+	<!--Skills-->
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-4">Skills</h1>
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<div class="progress blue">
+						<span class="progress-left">
+							<span class="progress-bar"></span>
+						</span>
+						<span class="progress-right">
+							<span class="progress-bar"></span>
+						</span>
+						<div class="progress-value">Java</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<!--Experience-->
-	<div id="experience">
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-4">Experiences</h1>
+			<div class="main-timeline">
+				<!-- start experience section-->
+				<div class="timeline">
+					<div class="icon"></div>
+					<div class="date-content">
+						<div class="date-outer">
+							<span class="date">
+								<span class="month">3 Months</span>
+								<span class="year">2020</span>
+							</span>
+						</div>
+					</div>
+					<div class="timeline-content">
+						<h5 class="company_name">Zebra Technologies</h5>
+						<h4 class="location">(Remote) Holtsilve, NY</h4>
+						<h4 class="title">Software Engineering Intern</h4>
+						<p class="description">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa
+							scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent
+							dapibus dolor felis, eu ultrices elit molestie.
+						</p>
+					</div>
+				</div>
+				<!-- end experience section-->
+
+				<!-- start experience section-->
+				<div class="timeline">
+					<div class="icon"></div>
+					<div class="date-content">
+						<div class="date-outer">
+							<span class="date">
+								<span class="month">1 Year 1 Month</span>
+								<span class="year">2018 - 2019</span>
+							</span>
+						</div>
+					</div>
+					<div class="timeline-content">
+						<h5 class="company_name">KidOYO</h4>
+							<h4 class="location">Stony Brook, NY</h4>
+							<h4 class="title">Certified Computer Science Mentor
+						</h5>
+						<p class="description">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa
+							scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent
+							dapibus dolor felis, eu ultrices elit molestie.
+						</p>
+					</div>
+				</div>
+				<!-- end experience section-->
+			</div>
+		</div>
 	</div>
+
 	<!--Projects-->
-	<div id="projects">
+	<div class="jumbotron jumbotron-fluid projects">
+		<div class="container">
+			<h1 class="display-4">Projects</h1>
+			<div class="project_card">
+				<div class="card" data-toggle="modal" data-target="#exampleModalCenter">
+					<img class="card-img-top" src="resources/profile.jpg">
+					<div class="card-body">
+						<a>
+							<h5>Title<h5>
+						</a>
+					</div>
+				</div>
+				<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								...
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	<!--Skills-->
-	<div id="skills">
-	</div>
+
 	<!--Contact-->
-	<div id="contact">
+	<div class="jumbotron jumbotron-fluid contacts">
+		<div class="container">
+			<h1 class="display-4">Contacts</h1>
+			<ul id="contact_icon_list">
+				<li><a href="weixin.tan0@gmail.com" target="blank"><i
+							class="far fa-envelope contact_icon">weixin.tan0@gmail.com</i></a></li>
+				<li><a href="https://www.linkedin.com/in/tanweixin98/" target="blank"><i
+							class="fab fa-linkedin contact_icon"></i></a></li>
+				<li><a href="https://github.com/TanWeixin98" target="blank"><i
+							class="fab fa-github-square contact_icon"></i></a></li>
+				<li><a href="resources/weixin_resume.pdf" target="blank"><i
+							class="far fa-file-pdf contact_icon"></i></a>
+				</li>
+			</ul>
+		</div>
 	</div>
 </body>
