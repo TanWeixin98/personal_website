@@ -7,8 +7,33 @@
 
 #description_word_list{
 	list-style-type: none;
-	display: flex;
 	margin: 0;
+}
+
+#description_word_list > li{
+    display: inline-block;
+    margin-left: 3%;
+    font-size: xx-large;
+    margin-bottom: 3rem;
+}
+
+#tools-list{
+    list-style-type: none;
+}
+
+#tools-list > li{
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+#language-icon{
+    width: 5%;
+    height: 5%;
+}
+
+.language-block{
+    display: inline-block;
+    padding: .5rem;
 }
 
 #contact_icon_list li{
@@ -20,12 +45,28 @@
 	padding: 10px;
 }
 
-#cover-text{
-	width: 100%;
-	text-align: center;
-	background-image: url("../resources/cool-background.png");
-	background-size: cover;
+#name{
+    margin-top: 2rem;
+    font-size: 75px;
+
 }
+
+.custom-nav{
+    height: 5vh;
+}
+
+.nav-style-custom{
+    font-size: large;
+}
+#cover-text{
+    height: auto;
+    height: 95vh;
+	text-align: center;
+    background-size: cover;
+    background-image: url("../resources/cool-background.png");
+
+}
+
 
 #about{
 	background-color: cadetblue;
@@ -39,6 +80,10 @@
 	background-color: darksalmon;
 }
 
+#profile-img{
+    margin-top: 2rem;
+}
+
 #contacts{
 	background-color: darkseagreen;
 }
@@ -47,10 +92,16 @@
 	border: 0;
 }
 
+.skill-block{
+    display: inline-block;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
 /* timeline css */
 body{
 	background-color: #f7f7f7;
-	text-align: center;
+    text-align: center;
 }
 
 .main-timeline {
@@ -368,6 +419,35 @@ body{
     transform-origin: center right;
     animation: loading-1 .5s linear forwards;
 }
+.progress .progress-right-three-quarter .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-2 .5s linear forwards;
+}
+
+.progress .progress-right-half .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-3.5s linear forwards;
+}
+
+.progress .progress-right-quarter .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-4 .5s linear forwards;
+}
 
 /** progress left **/
 .progress .progress-left-three-quarter .progress-bar{
@@ -423,9 +503,6 @@ body{
 .progress.blue .progress-bar{
     border-color: #049dff;
 }
-
-
-
 
 @keyframes loading-1{
     0%{

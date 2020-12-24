@@ -23,19 +23,19 @@
 
 <body>
 	<!--Nav bar-->
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-		<span class="navbar-text"> Weixin Tan </span>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top custom-nav">
+		<span class="navbar-text nav-style-custom"> Weixin Tan </span>
 		<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_menu">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div id="collapse_menu" class="collapse navbar-collapse">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a href="#cover-text" class="nav-link">Home</a></li>
-				<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-				<li class="nav-item"><a href="#experiences" class="nav-link">Experience</a></li>
-				<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-				<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-				<li class="nav-item"><a href="#contacts" class="nav-link">Contact</a></li>
+				<li class="nav-item nav-style-custom"><a href="#cover-text" class="nav-link">Home</a></li>
+				<li class="nav-item nav-style-custom"><a href="#about" class="nav-link">About</a></li>
+				<li class="nav-item nav-style-custom"><a href="#skills" class="nav-link">Skills</a></li>
+				<li class="nav-item nav-style-custom"><a href="#experiences" class="nav-link">Experience</a></li>
+				<li class="nav-item nav-style-custom"><a href="#projects" class="nav-link">Projects</a></li>
+				<li class="nav-item nav-style-custom"><a href="#contacts" class="nav-link">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -46,10 +46,9 @@
 
 	<!--Home(cover content)-->
 	<div id="cover-text">
-		<h1>Hello, World!</h1>
-		<h4>I'm Weixin</h4>
 		<img id="profile-img" class="img-fluid rounded-circle col-sm-4" src="resources/profile.jpg">
-		<div>
+		<div class="container">
+			<h1 id="name">Weixin Tan</h1>
 			<ul id="description_word_list">
 				<li>Engineer</li>
 				<li>Explorer</li>
@@ -77,109 +76,138 @@
 			<h1 class="display-4">Skills</h1>
 			<h2> Programming</h2>
 			<div>
-				<div class="col-md-3 col-sm-6">
-					<div class="progress blue">
-						<span class="progress-left-half progress-left">
-							<span class="progress-bar"></span>
-						</span>
-						<span class="progress-right-full progress-right">
-							<span class="progress-bar right-full"></span>
-						</span>
-						<div class="progress-value">Java</div>
+				<div class="skill-block">
+					<div class="col-md-3 col-sm-6 no-gutters">
+						<div class="progress blue">
+							<span class="progress-left-half progress-left">
+								<span class="progress-bar"></span>
+							</span>
+							<span class="progress-right-full progress-right">
+								<span class="progress-bar right-full"></span>
+							</span>
+							<div class="progress-value">Java</div>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div>
-				<div class="col-md-3 col-sm-6">
-					<div class="progress blue">
-						<span class="progress-left-quarter progress-left">
-							<span class="progress-bar"></span>
-						</span>
-						<span class="progress-right-full progress-right">
-							<span class="progress-bar right-full"></span>
-						</span>
-						<div class="progress-value">Python</div>
+				<div class="skill-block">
+					<div class="col-md-3 col-sm-6 no-gutters">
+						<div class="progress blue">
+							<span class="progress-left-quarter progress-left">
+								<span class="progress-bar"></span>
+							</span>
+							<span class="progress-right-full progress-right">
+								<span class="progress-bar right-full"></span>
+							</span>
+							<div class="progress-value">Python</div>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div>
-				<div class="col-md-3 col-sm-6">
-					<div class="progress blue">
-						<span class="progress-left-empty progress-left">
-							<span class="progress-bar"></span>
-						</span>
-						<span class="progress-right-full progress-right">
-							<span class="progress-bar right-full"></span>
-						</span>
-						<div class="progress-value">C#</div>
+				<div class="skill-block">
+					<div class="col-md-3 col-sm-6 no-gutters">
+						<div class="progress blue">
+							<span class="progress-left-empty progress-left">
+								<span class="progress-bar"></span>
+							</span>
+							<span class="progress-right-full progress-right">
+								<span class="progress-bar right-full"></span>
+							</span>
+							<div class="progress-value">C#</div>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div>
-				<div class="col-md-3 col-sm-6">
-					<div class="progress blue">
-						<span class="progress-left-empty progress-left">
-							<span class="progress-bar"></span>
-						</span>
-						<span class="progress-right-full progress-right">
-							<span class="progress-bar right-full"></span>
-						</span>
-						<div class="progress-value">HTML/CSS</div>
+				<div class="skill-block">
+					<div class="col-md-3 col-sm-6 no-gutters">
+						<div class="progress blue">
+							<span class="progress-left-empty progress-left">
+								<span class="progress-bar"></span>
+							</span>
+							<span class="progress-right-full progress-right">
+								<span class="progress-bar right-full"></span>
+							</span>
+							<div class="progress-value">HTML/CSS</div>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div>
-				<div class="col-md-3 col-sm-6">
-					<div class="progress blue">
-						<span class="progress-left-empty progress-left">
-							<span class="progress-bar"></span>
-						</span>
-						<span class="progress-right-full progress-right">
-							<span class="progress-bar right-full"></span>
-						</span>
-						<div class="progress-value">SQL</div>
+				<div class="skill-block">
+					<div class="col-md-3 col-sm-6 no-gutters">
+						<div class="progress blue">
+							<span class="progress-left-empty progress-left">
+								<span class="progress-bar"></span>
+							</span>
+							<span class="progress-right-three-quarter progress-right">
+								<span class="progress-bar right-full"></span>
+							</span>
+							<div class="progress-value">SQL</div>
+						</div>
 					</div>
 				</div>
-			</div>
 
 
-			<div>
-				<div class="col-md-3 col-sm-6">
-					<div class="progress blue">
-						<span class="progress-left-empty progress-left">
-							<span class="progress-bar"></span>
-						</span>
-						<span class="progress-right-full progress-right">
-							<span class="progress-bar right-full"></span>
-						</span>
-						<div class="progress-value">JavaScript</div>
+				<div class="skill-block">
+					<div class="col-md-3 col-sm-6 no-gutters">
+						<div class="progress blue">
+							<span class="progress-left-empty progress-left">
+								<span class="progress-bar"></span>
+							</span>
+							<span class="progress-right-three-quarter progress-right">
+								<span class="progress-bar right-full"></span>
+							</span>
+							<div class="progress-value">JavaScript</div>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div>
-				<div class="col-md-3 col-sm-6">
-					<div class="progress blue">
-						<span class="progress-left-empty progress-left">
-							<span class="progress-bar"></span>
-						</span>
-						<span class="progress-right-full progress-right">
-							<span class="progress-bar right-full"></span>
-						</span>
-						<div class="progress-value">C</div>
+
+				<div class="skill-block">
+					<div class="col-md-3 col-sm-6 no-gutters">
+						<div class="progress blue">
+							<span class="progress-left-empty progress-left">
+								<span class="progress-bar"></span>
+							</span>
+							<span class="progress-right-three-quarter progress-right">
+								<span class="progress-bar right-full"></span>
+							</span>
+							<div class="progress-value">Node.Js</div>
+						</div>
+					</div>
+				</div>
+				<div class="skill-block">
+					<div class="col-md-3 col-sm-6 no-gutters">
+						<div class="progress blue">
+							<span class="progress-left-empty progress-left">
+								<span class="progress-bar"></span>
+							</span>
+							<span class="progress-right-half progress-right">
+								<span class="progress-bar right-full"></span>
+							</span>
+							<div class="progress-value">C</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="container">
+		<div class="container ">
 			<h2> Tools/Frameworks</h2>
+			<ul id="tools-list">
+				<li>Proficient: Git, SVN, Linux/Unix, Bootstrap, JavaFx, MongoDB, MySQL</li>
+				<li>Experience: Blazor, Express.Js, Nginx, Maven</li>
+				<li>Familiar/Worked With: Angular, React, Docker, ASP.Net, GCP, Spring, Tornado(Python), ElasticSearch, RabbitMQ, Cassandra, Memcached</li>
+			</ul>
 		</div>
 		<div class="container">
-			<h2>Languages</h2>
+			<h2>I speak</h2>
+			<div class="col-sm-4 language-block">
+				<img src="resources/english-language.svg" class="col-md-8"/>
+				<p>English</p>		
+			</div>
+			<div class="col-sm-4 language-block">
+				<img src="resources/chinese-language.svg" class="col-md-8"/>
+				<p>Mandarin/Cantonese</p>
+			</div>
 		</div>
 	</div>
 	<!--Experience-->
