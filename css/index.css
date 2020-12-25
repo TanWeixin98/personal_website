@@ -1,8 +1,9 @@
 #contact_icon_list{
 	list-style-type: none;
-	padding: 0;
-	margin:0;
-	overflow: hidden;
+}
+
+.tech-used-list{
+    list-style-type: none;
 }
 
 #description_word_list{
@@ -26,23 +27,18 @@
     margin-bottom: 0.5rem;
 }
 
-#language-icon{
-    width: 5%;
-    height: 5%;
-}
-
 .language-block{
     display: inline-block;
     padding: .5rem;
 }
 
 #contact_icon_list li{
-	float:left;
+    display: inline-block;
 }
 .contact_icon{
 	color: #000000;
-	font-size: 20px;
-	padding: 10px;
+	font-size: 30px;
+    padding: 10px;
 }
 
 #name{
@@ -69,15 +65,18 @@
 
 
 #about{
-	background-color: cadetblue;
+    background-color: cadetblue;
+    margin: 0;
 }
 
 #skills{
-	background-color: darkgray;
+    background-color: darkgray;
+    margin: 0;
 }
 
 #projects{
-	background-color: darksalmon;
+    background-color: darksalmon;
+    margin: 0;
 }
 
 #profile-img{
@@ -85,11 +84,12 @@
 }
 
 #contacts{
-	background-color: darkseagreen;
+    background-color: darkseagreen;
+    margin: 0;
 }
 
-#cover-text #about #skills #projects #contacts{
-	border: 0;
+#experiences{
+    margin: 0;
 }
 
 .skill-block{
