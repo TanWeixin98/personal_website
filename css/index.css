@@ -6,9 +6,24 @@
     list-style-type: none;
 }
 
+.tech-used-list > li{
+    margin:5px;
+    padding:5px;
+    display: inline-block;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+}
+
 #description_word_list{
 	list-style-type: none;
 	margin: 0;
+}
+
+.project_click{
+    display: inline-block;
+    margin: 1rem;
 }
 
 #description_word_list > li{
