@@ -6,6 +6,10 @@
     list-style-type: none;
 }
 
+.hobby-icon{
+    margin:1rem;
+}
+
 .tech-used-list > li{
     margin:5px;
     padding:5px;
@@ -14,6 +18,11 @@
     border-color: black;
     border-style: solid;
     border-width: thin;
+}
+
+.btn-secondary > a{
+    color: white;
+    text-decoration: None;
 }
 
 #description_word_list{
@@ -77,11 +86,14 @@
     background-image: url("../resources/cool-background.png");
 
 }
-
+#hobby-icons{
+    margin-top: 30%;
+}
 
 #about{
     background-color: cadetblue;
     margin: 0;
+    height: 100vh;
 }
 
 #skills{
