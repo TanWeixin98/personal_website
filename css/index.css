@@ -87,7 +87,7 @@
 
 }
 #hobby-icons{
-    margin-top: 30%;
+    margin-top: 10%;
 }
 
 #about{
@@ -117,6 +117,20 @@
 
 #experiences{
     margin: 0;
+}
+
+#about-content{
+    margin: 2rem;
+    font-size: x-large;
+}
+
+.section-head{
+    font-weight: bold;
+}
+
+.description{
+    text-align: left;
+    text-indent: 2rem;
 }
 
 .skill-block{
@@ -226,7 +240,7 @@ body{
 }
 
 .main-timeline .date-outer {
-    width: 125px;
+    width: 160px;
     height: 125px;
     font-size: 16px;
     text-align: center;
@@ -237,7 +251,7 @@ body{
 .main-timeline .date-outer:before,
 .main-timeline .date-outer:after {
     content: "";
-    width: 125px;
+    width: 160px;
     height: 125px;
     margin: 0 auto;
     border-radius: 50%;
